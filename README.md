@@ -1,51 +1,38 @@
-# CODSOFT AI Internship - Task 1
+# CODSOFT AI Internship - Task 2
 
-## Chatbot with Rule-Based Responses
+## Tic-Tac-Toe AI
 
-This project is for **Task 1 of the CodSoft Artificial Intelligence Internship**.
+This project is for **Task 2 of the CodSoft Artificial Intelligence Internship**.
 
 ### Objective
-Build a simple chatbot that responds to user inputs using predefined rules and conditional statements.
+Implement an AI agent that plays Tic-Tac-Toe against a human player using the Minimax algorithm.
 
 ### Technologies Used
 - Python
-- if/elif/else
-- String matching
+- Minimax algorithm
+- Game theory
+- Basic search algorithm
 - Command-line interface
 
-### Features
-- Greetings
-- "How are you?"
-- Chatbot identity
-- Help
-- Internship-related questions
-- Thank-you messages
-- Goodbye messages
-- Unknown input handling
+### Board Positions
+```text
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
+```
 
 ### How to Run
-
-Make sure Python 3 is installed, then run:
-
 ```bash
-python chatbot.py
+python tic_tac_toe.py
 ```
 
-### Sample Conversation
-
-```text
-You: hello
-Bot: Hello! How can I help you?
-
-You: what is your name?
-Bot: I'm a simple rule-based chatbot created for the CodSoft AI internship.
-
-You: what is this internship?
-Bot: This chatbot is Task 1 of the CodSoft Artificial Intelligence internship.
-
-You: bye
-Bot: Goodbye! Have a great day.
-```
+### Game
+- Human player = X
+- AI player = O
+- Enter a position from 1 to 9.
+- The AI evaluates possible moves using Minimax.
 
 ## Author
 Lucky Sharma
