@@ -1,0 +1,13 @@
+# How to Test Task 4
+
+1. Put an image such as dog.jpg in the project folder, or use the full path to an image.
+2. Install the requirements.
+3. Run image_captioning.py.
+4. Enter the image path when asked.
+5. The program will display the generated caption.
+
+Example:
+dog.jpg
+
+You can also enter a full path such as:
+C:\Users\YourName\Pictures\dog.jpg
